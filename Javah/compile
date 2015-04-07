@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cc -shared \
+  -I/usr/lib/jvm/jdk1.8.0_05/include \
+  -I/usr/lib/jvm/jdk1.8.0_05/include/linux \
+  -o libHoge.so \
+  Hoge.c
